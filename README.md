@@ -1,1 +1,1 @@
-# SneakMax
+My first pet project # SneakMax
