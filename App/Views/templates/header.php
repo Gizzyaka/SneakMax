@@ -1,8 +1,8 @@
 <header class="header">
-    <div class="container">
+    <div class="container header__container">
         <div class="logo">SneakMax</div>
-        <nav class="navbar">
-            <ul class="navbar-menu">
+        <nav class="header__navbar">
+            <ul class="header__navbar-menu">
                 <li class="menu__item"><a href="#" class="menu__link">Каталог</a></li>
                 <li class="menu__item"><a href="#" class="menu__link">О нас</a></li>
                 <li class="menu__item"><a href="#" class="menu__link">Подбор товара</a></li>

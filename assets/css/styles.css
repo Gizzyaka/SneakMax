@@ -1,0 +1,149 @@
+/* Сброс стилей браузера по умолчанию */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Нормализация стилей */
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+}
+
+/* Сброс стилей для заголовков */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+/* Сброс стилей для списков */
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Сброс стилей для ссылок */
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+.container {
+    width: 100%; /* Ширина контейнера */
+    max-width: 1200px; /* Максимальная ширина контейнера */
+    margin: 0 auto; /* Автоматический отступ по бокам */
+    padding: 10px; /* Внутренний отступ */
+    box-sizing: border-box; /* Включает внутренний отступ и границы в общую ширину и высоту */
+}
+
+
+.header {
+    background-color: #484283;
+    color: #fff;
+}
+
+.header__container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.50); /* Добавляем линию под header */
+}
+
+.logo {
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header__navbar-menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu__item {
+    margin-left: 20px;
+}
+
+.menu__link {
+    color: #FFF;
+
+    /* menu */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.menu__link:hover {
+    color: #ccc;
+}
+
+
+
+.main {
+    background-color: #484283;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hello__title {
+    width: 580px;
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 20px;
+}
+
+.hello__subtitle {
+    width: 480px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 40px;
+}
+
+.hello__btn {
+    border-radius: 4px;
+    background: var(--accent, #F14F4F);
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+.btn {
+    display: inline-flex;
+    padding: 22px 47px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn:hover {
+    border-radius: 4px;
+    background: #CC4955;
+}
