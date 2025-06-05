@@ -390,3 +390,68 @@ a {
     cursor: pointer;
     transition: all 0.3s ease;
 }
+
+/* section about */
+.about {
+    padding: 220px 0 160px 0;
+    background: #484283;
+
+    position: relative;
+    min-height: 580px; /* Минимальная высота */
+    overflow: hidden;
+}
+.about::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: -150px;
+    width: 949px;
+    height: 633px;
+    flex-shrink: 0;
+    background-image: url('/assets/images/About-bg.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 0;
+}
+.about__container {
+    position: relative;
+    z-index: 1;
+}
+
+.about__title {
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    margin-bottom: 20px;
+}
+
+.about__text {
+    width: 380px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+
+    margin-bottom: 20px;
+}
+
+.about__signature {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-style: italic;
+  font-size: 20px;
+  margin-left: 250px;
+}
+
+.about__dash {
+  width: 30px;
+  height: 2px;
+  background: #fff;
+}
