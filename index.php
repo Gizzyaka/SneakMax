@@ -164,6 +164,84 @@
             </div>
         </div>
     </section>
+    <section class="quiz">
+        <div class="quiz__container container">
+            <div class="quiz__wrapper">
+                <div class="quiz__top">
+                    <h2 class="quiz__title">Мы подберем идеальную пару для вас</h2>
+                    <p class="quiz__description">Ответьте на три вопроса и мы вышлем каталог с самыми подходящими для вас моделями</p>
+                </div>
+                <div class="quiz__bottom">
+                    <h3 class="quiz__question">Какой тип кроссовок рассматриваете?</h3>
+                    <div class="quiz__selector">
+                        <label class="quiz__card">
+                            <div class="quiz__card-image">
+                                <img src="/assets/images/Quiz.jpg" alt="Кроссовки Nike Air Force 1 '07 OS белые" class="quiz__card-img">
+                            </div>
+                            <div class="quiz__card-option">
+                                <input type="checkbox" name="shoe-type" class="quiz__card-checkbox">
+                                <span class="checkbox-custom"></span>
+                                <span>Кеды</span>
+                            </div>
+                        </label>
+                        <label class="quiz__card">
+                            <div class="quiz__card-image">
+                                <img src="/assets/images/Quiz.jpg" alt="Кроссовки Nike Air Force 1 '07 OS белые" class="quiz__card-img">
+                            </div>
+                            <div class="quiz__card-option">
+                                <input type="checkbox" name="shoe-type" class="quiz__card-checkbox">
+                                <span class="checkbox-custom"></span>
+                                <span>Кеды</span>
+                            </div>
+                        </label>
+                        <label class="quiz__card">
+                            <div class="quiz__card-image">
+                                <img src="/assets/images/Quiz.jpg" alt="Кроссовки Nike Air Force 1 '07 OS белые" class="quiz__card-img">
+                            </div>
+                            <div class="quiz__card-option">
+                                <input type="checkbox" name="shoe-type" class="quiz__card-checkbox">
+                                <span class="checkbox-custom"></span>
+                                <span>Кеды</span>
+                            </div>
+                        </label>
+                        <label class="quiz__card">
+                            <div class="quiz__card-image">
+                                <img src="/assets/images/Quiz.jpg" alt="Кроссовки Nike Air Force 1 '07 OS белые" class="quiz__card-img">
+                            </div>
+                            <div class="quiz__card-option">
+                                <input type="checkbox" name="shoe-type" class="quiz__card-checkbox">
+                                <span class="checkbox-custom"></span>
+                                <span>Кеды</span>
+                            </div>
+                        </label>
+                        <label class="quiz__card">
+                            <div class="quiz__card-image">
+                                <img src="/assets/images/Quiz.jpg" alt="Кроссовки Nike Air Force 1 '07 OS белые" class="quiz__card-img">
+                            </div>
+                            <div class="quiz__card-option">
+                                <input type="checkbox" name="shoe-type" class="quiz__card-checkbox">
+                                <span class="checkbox-custom"></span>
+                                <span>Кеды</span>
+                            </div>
+                        </label>
+                        <label class="quiz__card">
+                            <div class="quiz__card-image">
+                                <img src="/assets/images/Quiz.jpg" alt="Кроссовки Nike Air Force 1 '07 OS белые" class="quiz__card-img">
+                            </div>
+                            <div class="quiz__card-option">
+                                <input type="checkbox" name="shoe-type" class="quiz__card-checkbox">
+                                <span class="checkbox-custom"></span>
+                                <span>Кеды</span>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="quiz__pagination">
+                        <button class="quiz__pagination-next btn">Следующий шаг</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
 </body>
 </html>
