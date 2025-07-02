@@ -1,0 +1,286 @@
+@media (max-width: 1439.98px) {
+    /* section about */
+    .about__wrapper {
+        padding: 0px 15px;
+    }
+}
+@media (max-width: 1199.98px) {
+    /* section quiz */
+    .quiz__selector {
+        justify-content: space-between;
+        gap: 20px 20px;
+    }
+    .quiz__card-image {
+        width: 240px;
+    }
+
+    /* section our-team */
+    .our-team__title {
+        text-align: center;
+    }
+    .our-team__members {
+        justify-content: center;
+    }
+
+    /* section faq */
+    .faq {
+        padding: 30px 0px;
+    }
+
+    /* section insta */
+    .insta {
+        padding: 30px 0px;
+    }
+    .insta__wrapper {
+        justify-content: center;
+        gap: 30px;
+    }
+
+    /* footer */
+    .footer__container {
+        flex-direction: column;
+        gap: 60px;
+    }
+    .footer__navbar-menu {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+}
+@media (max-width: 1023.98px) {
+    /* body */
+    body.lock {
+        overflow: hidden;
+    }
+    /* header */
+    .menu__link {
+        font-size: 12px;
+    }
+
+    /* section catalog */
+    .catalog__title {
+        text-align: center;
+    }
+    .catalog__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .catalog__filter-show {
+        display: block;
+        cursor: pointer;
+        max-width: 300px;
+        border-radius: 4px;
+        font-size: 24px;
+        color: #444b58;
+    }
+    .catalog__filter-show::after {
+        content: '▶';
+    }
+    .catalog__filter-show.active::after {
+        content: '▼';
+    }
+    .catalog__filter {
+        position: fixed;
+        bottom: -100%;
+        left: 0;
+        z-index: 3;
+        width: 100%;
+        height: 100%;
+        background-color: #484283;
+        transition: all 0.3s ease 0s;
+    }
+    .catalog__filter.active {
+        bottom: 0;
+    }
+    .catalog__products {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    /* section about */
+    .about {
+        padding: 80px 0px 80px 0px;
+    }
+    .about__wrapper {
+        justify-content: center;
+    }
+    .about__image {
+        display: none;
+    }
+
+    /* section quiz */
+    .quiz {
+        padding: 45px 0px;
+    }
+    .quiz__wrapper {
+        padding: 15px 30px;
+    }
+    .quiz__title {
+        font-size: 21px;;
+    }
+    .quiz__description {
+        flex: 0 1 300px;
+    }
+    .quiz__question {
+        font-size: 18px;
+    }
+    .quiz__selector {
+        flex-direction: column;
+    }
+    .quiz__card-image {
+        display: none;
+    }
+    .quiz__pagination {
+        margin: 20px 0px 0px 0px;
+    }
+
+    /* section contacts */
+    .contacts {
+        padding: 30px 0px;
+    }
+    .contacts__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .contacts__info {
+        align-self: center;
+        justify-items: center;
+    }
+    .contacts__title {
+        margin: 0px 0px 20px 0px;
+    }
+}
+@media (max-width: 768px) {
+    /* body */
+    body.lock {
+        overflow: hidden;
+    }
+    /* header */
+    .header__wrapper {
+        padding: 15px 0;
+    }
+    .logo {
+        font-size: 24px;
+        z-index: 4;
+    }
+    .header__navbar {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        z-index: 3;
+        width: 100%;
+        height: 100%;
+        background-color: #484283;
+        padding: 60px 0px 0px 0px;
+        transition: all 0.3s ease 0s;
+    }
+    .header__navbar.active {
+        top: 0;
+    }
+    .menu {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+    }
+    .menu__link {
+        font-size: 18px;
+    }
+    /* header__burger */
+    .header__burger {
+        display: block;
+        position: relative;
+        width: 24px;
+        height: 20px;
+        z-index: 6;
+    }
+    .header__burger::before,
+    .header__burger::after {
+        content: '';
+        background-color: #fff;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+    }
+    .header__burger::before {
+        top: 0;
+    }
+    .header__burger::after {
+        bottom: 0;
+    }
+    .header__burger span {
+        position: absolute;
+        background-color: #fff;
+        height: 2px;
+        width: 100%;
+        top: 9px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+    }
+    .header__burger.active::before {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+    .header__burger.active::after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+    .header__burger.active span {
+        transform: scale(0);
+    }
+
+    /* section hello */
+    .hello {
+        padding: 45px 0;
+    }
+    .hello__title {
+        font-size: 28px;
+    }
+    .hello__subtitle {
+        font-size: 14px;
+    }
+
+    /* section catalog */
+    .catalog__wrapper {
+        padding: 20px 0px;
+    }
+    .catalog__title {
+        text-align: center;
+        margin: 0;
+    }
+    .catalog__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .catalog__filter {
+        z-index: 5;
+    }
+    .catalog__products {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    /* section about */
+    .about__image {
+        display: none;
+    }
+
+    /* section our-team */
+    .our-team {
+        padding: 30px 0px;
+    }
+
+    /* section contacts */
+    .contacts__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+}
